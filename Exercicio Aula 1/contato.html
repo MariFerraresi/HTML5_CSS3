@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cursinho Web - Fale Conosco </title>
+
+        <link rel="shortcut icon" href="livros.png" type="image/x-icon">
+    
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <!--Menu de Navegação-->
+                <P> <a href =index.html> Página Inicial  </a>| <a href = disciplinas.html> Disciplinas Oferecidas</a>| <a href="contato.html"> Entre em Contato</a> </P>
+            </nav>
+        </header>
+
+<section>
+<form method="post" action="return.html">
+    
+<h1>Dados para Contato</h1>
+<!--Nome-->
+<div>
+
+    <label for="tx-nome"> Nome Completo:</label>
+    <input type="text" name="name" id="tx-nome" required maxlength="50">
+
+</div>
+
+<!-- Email -->
+
+<div>
+    <label for="tx-email"> Email:</label>
+    <input type="email" name="email" id="tx-email" required>
+</div>
+
+<!--disciplina de interesse-->
+
+<div>
+    <label for="se-disciplina">Qual disciplina te interessa mais?</label>
+    <select name="disciplina" id="se-disciplina" required>
+
+<option> CSS3</option>
+<option>C#</option>
+<option> Desenvolvimento Web</option>
+<option>Programação Orientada a Objeto</option>
+<option selected>Python</option>
+<option>SQL</option>
+
+    </select>
+    
+    </div>
+
+<!--Linguages CheckBox-->
+
+<div>
+    <fieldset>
+        <legend> Quais linguagens você conhece?</legend>
+    <!--Interessante utilizar o Value para enviar valores mais enxutos ao BD e economizar espaço -->
+
+        <input type="checkbox" name="linguagens" id="cb-csharp" value="csharp" checked><label for="cb-csharp">C#</label><br/>
+        <input type="checkbox" name="linguagens" id="cb-java" value="java"><label for="cb-java">Java</label><br/>
+        <input type="checkbox" name="linguagens" id="cb-javascript" value="js"><label for="cb-javascript">JavaScript</label><br/>
+        <input type="checkbox" name="linguagens" id="cb-python" value="python"><label for="cb-python">Python</label><br/>
+        <input type="checkbox" name="linguagens" id="cb-php" value="php"><label for="cb-php">PHP</label><br/>
+        <input type="checkbox" name="linguagens" id="cb-ruby" value="ruby"><label for="cb-ruby">Ruby</label><br/>
+
+    </fieldset>
+    </div>
+    
+    <div>
+        <fieldset>
+            <legend> Onde você conheceu o Cursinho Web?</legend>
+        <!--Interessante utilizar o Value para enviar valores mais enxutos ao BD e economizar espaço -->
+        
+            <input type="radio" name="conheceu" id="ra-amigos" value="amigos"><label for="ra-amigos">Amigos</label><br/>
+            <input type="radio" name="conheceu" id="ra-google" value="google" checked><label for="ra-google">Google</label><br/>
+            <input type="radio" name="conheceu" id="ra-youtube" value="youtube" checked><label for="ra-youtube">Youtube</label><br/>
+            <input type="radio" name="conheceu" id="ra-instagram" value="instagram" checked><label for="ra-instagram">Instagram</label>
+                
+        </fieldset>
+        </div>
+        
+
+        <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    
+</section>
+</form>
+
+
+        <footer>
+            <!-- rodapé-->
+            <p>
+                Cursinho Web - Todos os direitos reservados <br>
+                Contato: <a href="mailto: contato@provedor.com">contato@provedor.com</a>
+            </p>
+        </footer>
+
+
+    </body>
+</html>
