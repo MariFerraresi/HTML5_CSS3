@@ -1,0 +1,71 @@
+.div1 {
+
+	width: 100px;
+	background-color: yellowgreen;
+}
+
+.div2 {
+
+	display: inline-block;	
+
+	height: 200px;
+	width: 100px;
+	background-color: blue;
+}
+
+.div3 {
+
+	display: none;	
+
+	width: 500px;
+
+}
+
+.div4 {
+
+	display: inline;	
+
+	width: 800;
+	height: 10px;
+	background-color: red;
+}
+
+
+.div5 {
+
+	display: inline;	
+
+	height: 200px;
+	background-color: purple;
+}
+
+
+
+/*exercicio 2 */
+
+.primeiro {
+
+	width: 500px;
+
+	height: 200px;
+
+	border: 15px solid blue;
+
+	background-color: yellow;
+
+}
+
+.segundo {
+
+	width: 500px;
+
+	height: 200px;
+
+	padding: 30px;
+
+	box-sizing: border-box;
+
+	background-color: cyan;
+
+}
+
